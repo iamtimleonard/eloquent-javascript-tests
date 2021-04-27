@@ -1,4 +1,4 @@
-const triangle = require("./triangle");
+const triangle = require("./index");
 
 jest.spyOn(console, "log").mockImplementation();
 
