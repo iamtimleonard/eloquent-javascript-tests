@@ -1,4 +1,4 @@
-const fizzBuzz = require("./fizzBuzz");
+const fizzBuzz = require("./index");
 
 jest.spyOn(console, "log").mockImplementation();
 

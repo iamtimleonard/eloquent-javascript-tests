@@ -1,4 +1,4 @@
-const chessboard = require("./chessboard");
+const chessboard = require("./index");
 
 jest.spyOn(console, "log").mockImplementation();
 
