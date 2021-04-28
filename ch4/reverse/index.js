@@ -3,21 +3,13 @@
 // Thinking back to the notes about side effects and pure functions in the previous chapter, which variant do you expect to be useful in more situations? Which one runs faster?
 
 function reverseArray(array) {
-  let result = [];
-  for (let i = 0; i < array.length; i++) {
-    result[array.length - i - 1] = array[i];
-  }
-  return result;
+  //add your solution below
+  //add your solution above
 }
 
 function reverseArrayInPlace(array) {
-  for (let i = 0; i < Math.floor(array.length / 2); i++) {
-    [array[i], array[array.length - i - 1]] = [
-      array[array.length - i - 1],
-      array[i],
-    ];
-  }
-  return;
+  //add your solution below
+  //add your solution above
 }
 
 module.exports = { reverseArray, reverseArrayInPlace };
