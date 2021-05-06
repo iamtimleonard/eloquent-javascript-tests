@@ -7,28 +7,8 @@
 // Give the class a static from method that takes an iterable object as argument and creates a group that contains all the values produced by iterating over it.
 
 class Group {
-  constructor() {
-    this.group = [];
-  }
-  has(value) {
-    return this.group.includes(value);
-  }
-  add(value) {
-    if (this.group.indexOf(value) > -1) {
-      return;
-    }
-    this.group.push(value);
-  }
-  delete(value) {
-    this.group.splice(this.group.indexOf(value), 1);
-  }
-  static from([start, finish]) {
-    const group = new Group();
-    for (let i = start; i <= finish; i++) {
-      group.add(i);
-    }
-    return group;
-  }
+  //add solution below
+  //add solution above
 }
 
 module.exports = Group;
